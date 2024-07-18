@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rv-path-converter"
+version = "1.0"
+description = ""
+authors = ["slingshotvfx <146885925+slingshotvfx@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

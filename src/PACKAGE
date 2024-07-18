@@ -1,0 +1,23 @@
+package: RV Path Converter
+author: Slingshot Systems Inc.
+organization: Slingshot Systems Inc.
+version: 1.0
+requires: ''
+rv: 4.0.7
+openrv: 1.0.0
+optional: true
+
+modes: 
+  - file: rv_path_converter.py
+    menu: ''
+    shortcut: ''
+    event: ''
+    load: immediate
+
+description: |
+    <h2>RV Path Converter</h2>
+    <p>This is a simple package that allows you to change the path of incoming source media, e.g. to remap the path for your platform.</p>
+    <p>It provides a graphical interface instead of relying on environment variables.</p>
+    <p>Note that this package only modifies paths loaded via session files or URLs, 
+    it does not affect files manually added by drag & drop or from the command line.<p>
+    
