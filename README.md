@@ -10,7 +10,7 @@ A simple [RV](https://help.autodesk.com/view/SGSUB/ENU/?guid=SG_RV_rv_osrv_html)
 
 ### Path conversion with Flow Production Tracking integration
 
-This package doesn't work in conjunction with the `Flow Production Tracking` integration package, which annnoying checks if the path is empty on the disk via `commands.existingFilesInSequence` _before_ the `incoming-source-path` event is even triggered:
+This package doesn't work in conjunction with the `Flow Production Tracking` integration package, which annnoyingly checks if the path is empty on the disk via `commands.existingFilesInSequence` _before_ the `incoming-source-path` event is even triggered:
 
 ##### shotgrid_fields.mu
 
